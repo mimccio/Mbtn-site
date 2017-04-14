@@ -11,7 +11,7 @@ const shadowColorLight = background.shadow.light
 const shadowColorDark = background.shadow.dark
 
 const Wrapper = styled.div`
-  height: 500px;
+  height: 400px;
   color: ${palette.primary.main};
   background-color: ${backgroundColor};
   display: flex;
