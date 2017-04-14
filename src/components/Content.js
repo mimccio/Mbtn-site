@@ -40,14 +40,9 @@ export default class Content extends Component {
   render () {
     return (
       <Wrapper>
-
-        <p>{backgroundColor} - </p>
-        <p>{shadowColorLight} - </p>
-        <p>{shadowColorDark} - </p>
-
         <SmallSection>
           <Mbtn info accent icon textColorPalette='info' textNuance='dark' content='query_builder' />
-          <Mbtn icon color='#4DD0E1' customTextColor='#E040FB' content='lock_open' />
+          <Mbtn icon color='#4DD0E1' customTextColor='red' content='lock_open' />
           <Mbtn primary light icon textPlatte='success' textNuance='dark' content='check' />
           <Mbtn success icon content='mode_edit' />
           <Mbtn warning icon content='cloud_circle' />
@@ -77,7 +72,7 @@ export default class Content extends Component {
           <Mbtn info light content='Light' />
           <Mbtn info dark content='Dark' />
 
-          <Mbtn warning content='Warning' bold />
+          <Mbtn warning textColor='info' textNuance='dark' content='Warning' bold />
           <Mbtn warning light content='Light' />
           <Mbtn warning dark content='Dark' />
 

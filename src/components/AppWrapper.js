@@ -8,14 +8,16 @@ import '../styles/box-sizing.css'
 
 import globalStyles from '../styles/globalStyles'
 
-import { palette, defaultTextColor, defaultBackgroundColor } from '../m-btn'
+import { palette, defaultTextColor, bg } from '../m-btn'
+
+const bgColor = bg('primary', 'lighter').color
 
 const Wrapper = styled.section`
   color: ${defaultTextColor};
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: ${defaultBackgroundColor};
+  background-color: ${bgColor};
   min-height: 100vh;
 
   a {

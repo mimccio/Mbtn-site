@@ -2,7 +2,7 @@ import palette from '../config/colorPalette'
 
 const defineTextColor = (props, backgroundColor) => {
   if (props.customTextColor) {
-    return props.CustomTextColor
+    return props.customTextColor
   } else if (
     props.textColor === 'primary'
     || props.textColor === 'info'
