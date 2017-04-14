@@ -13,7 +13,7 @@ import { palette, defaultTextColor, bg } from '../m-btn'
 const bgColor = bg('primary', 'lighter').color
 
 const Wrapper = styled.section`
-  color: ${defaultTextColor};
+  color: ${palette.info.main};
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

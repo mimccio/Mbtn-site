@@ -11,20 +11,29 @@ const shadowColorLight = background.shadow.light
 const shadowColorDark = background.shadow.dark
 
 const Wrapper = styled.div`
+  height: 500px;
   color: ${palette.primary.main};
   background-color: ${backgroundColor};
   display: flex;
   justify-content: center;
   padding: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
 
 const Section = styled.section`
   width: 100%;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `
 
 const SmallSection = styled(Section)`
-  width: 40%;
+  width: 100%;
 `
 
 export default class Content extends Component {
@@ -44,14 +53,14 @@ export default class Content extends Component {
           <Mbtn info accent icon textColorPalette='info' textNuance='dark' content='query_builder' />
           <Mbtn icon color='#4DD0E1' customTextColor='red' content='lock_open' />
           <Mbtn primary light icon textPlatte='success' textNuance='dark' content='check' />
-          <Mbtn success icon content='mode_edit' />
+
           <Mbtn warning icon content='cloud_circle' />
-          <Mbtn info icon content='info' />
+
           <Mbtn primary icon content='directions_bike' />
           <Mbtn danger accent light icon content='local_cafe' bold />
           <Mbtn info icon textColorPalette='primary' textNuance='lighter' content='query_builder' />
           <Mbtn info light icon textPalette='primary' textNuance='dark' content='airplanemode_active' />
-          <Mbtn danger icon content='phone_forwarded' />
+
           <Mbtn success icon content='code' />
           <Mbtn primary dark icon iconClass='fa fa-hand-peace-o' />
           <Mbtn icon grey darker iconClass='devicon-react-original colored' />
@@ -62,11 +71,8 @@ export default class Content extends Component {
 
         <Section>
           <Mbtn primary content='Primary' />
-          <Mbtn primary light content='Light' bold />
           <Mbtn primary dark content='Dark' />
           <Mbtn primary accent content='Accent' />
-          <Mbtn primary accent light content='Light' />
-          <Mbtn primary accent dark content='Dark' />
 
           <Mbtn info content='Info' bold />
           <Mbtn info light content='Light' />
@@ -75,10 +81,6 @@ export default class Content extends Component {
           <Mbtn warning textColor='info' textNuance='dark' content='Warning' bold />
           <Mbtn warning light content='Light' />
           <Mbtn warning dark content='Dark' />
-
-          <Mbtn success content='Success' bold />
-          <Mbtn danger content='Danger' />
-          <Mbtn content='default' />
 
           <Mbtn primary lighter textNuance='dark' content='darkText' />
           <Mbtn success accent customTextColor='red' content='custom' />
