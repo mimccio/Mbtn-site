@@ -14,7 +14,7 @@ const Title = styled.h1`
 
 export default () => (
   <Wrapper>
-    <Title>Mbtn</Title>
+    <Title>{'<Mbtn />'}</Title>
     <p>One to rule them all</p>
   </Wrapper>
 )
