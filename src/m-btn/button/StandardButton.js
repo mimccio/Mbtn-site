@@ -4,9 +4,9 @@ import { fontSize, baseRadius, spacing } from '../settings/styleSettings'
 import GlobalButton from './GlobalButton'
 
 const StandardButton = styled(GlobalButton)`
-
+  font-size: ${fontSize.bodySmall};
   width: 4.2rem;
-  height: ${spacing.small};
+  height: 1.6rem;
   border-radius: ${baseRadius};
 
   &:before {
@@ -23,9 +23,6 @@ const StandardButton = styled(GlobalButton)`
     width: 7rem;
     height: 2.5rem;
 
-    &:hover {
-      height: 2.2rem;
-    }
   }
 
   @media (min-width:881px) {
@@ -34,9 +31,6 @@ const StandardButton = styled(GlobalButton)`
     width: 9rem;
     height: 3.1rem;
 
-    &:hover {
-      height: 2.8rem;
-    }
   }
 `
 export default StandardButton
