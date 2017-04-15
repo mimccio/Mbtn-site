@@ -49,7 +49,7 @@ export default class Content extends Component {
     return (
       <Wrapper>
         <SmallSection>
-          <Mbtn info accent icon textColorPalette='info' textNuance='dark' content='query_builder' />
+          <Mbtn info accent icon textColor='info' textNuance='dark' content='query_builder' />
           <Mbtn icon color='#4DD0E1' customTextColor='red' content='lock_open' />
           <Mbtn primary light icon textPlatte='success' textNuance='dark' content='check' />
 
@@ -69,7 +69,7 @@ export default class Content extends Component {
         </SmallSection>
 
         <Section>
-          <Mbtn primary dark content='Dark' />
+          <Mbtn primary content='<Mbtn />' />
           <Mbtn primary accent content='Accent' />
 
           <Mbtn info content='Info' bold />
