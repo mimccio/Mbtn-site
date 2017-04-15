@@ -10,10 +10,10 @@ import globalStyles from '../styles/globalStyles'
 
 import { palette, defaultTextColor, setBackground } from '../m-btn'
 
-const bgColor = setBackground('primary', 'lighter').color
+const bgColor = setBackground('primary', 'light').color
 
 const Wrapper = styled.section`
-  color: ${palette.info.main};
+  color: ${palette.primary.dark};
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -25,6 +25,7 @@ const Wrapper = styled.section`
 
     &:hover {
       text-decoration: underline;
+      color: ${palette.primary.dark};
     }
   }
 `

@@ -94,7 +94,7 @@ const palette = {
     accent: {
       main: warningAccent,
       light: warningAccentLight,
-      dark: warningAccentDark,
+      dark: warningAccentDark
     }
   },
   success: {
@@ -107,7 +107,7 @@ const palette = {
     accent: {
       main: successAccent,
       light: successAccentLight,
-      dark: successAccentDark,
+      dark: successAccentDark
     }
   },
   danger: {
@@ -120,7 +120,7 @@ const palette = {
     accent: {
       main: dangerAccent,
       light: dangerAccentLight,
-      dark: dangerAccentDark,
+      dark: dangerAccentDark
     }
   },
   grey: {
@@ -129,7 +129,7 @@ const palette = {
     light: greyLight,
     lighter: greyLighter,
     dark: greyDark,
-    darker: greyDarker,
+    darker: greyDarker
   }
 }
 

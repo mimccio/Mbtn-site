@@ -8,8 +8,10 @@ const Wrapper = styled.section`
 `
 
 const Title = styled.h1`
-  color: ${palette.primary};
   font-size: ${fontSize.heading1};
+  color: ${palette.info.light};
+  text-shadow: 0 2px 5px ${palette.primary.main};
+
 `
 
 export default () => (
