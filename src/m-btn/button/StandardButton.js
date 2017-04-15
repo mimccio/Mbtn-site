@@ -29,6 +29,10 @@ const StandardButton = styled(GlobalButton)`
     width: 7rem;
     height: 2.5rem;
 
+    &:hover {
+      transform: scale(1);
+    }
+
   }
 
   @media (min-width:881px) {
@@ -38,7 +42,7 @@ const StandardButton = styled(GlobalButton)`
     height: 3.1rem;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(.9);
     }
   }
 `
