@@ -78,7 +78,7 @@ export default class Content extends Component {
           <Mbtn primary lighter textColor='danger' textNuance='dark' content='custom' />
           <Mbtn success accent textColor='MidnightBlue ' content='custom' />
           <Mbtn success dark content=' ☀ Hi ☯ ' />
-          <Mbtn color='#4DD0E1' content='Bonjour' />
+          <Mbtn color='#4DD0E1' textColor='primary' content='Bonjour' />
         </Section>
 
       </Wrapper>
