@@ -17,11 +17,12 @@ const Wrapper = styled.div`
   margin: 0;
   flex-direction: column;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 0;
   box-shadow: 0 2px 8px ${palette.primary.main};
 
   @media (min-width:881px) {
   margin: 0 4rem;
+  border-radius: 50px;
 `
 
 const Section = styled.section`
