@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import palette from '../m-btn/config/colorPalette'
-import Mbtn, { setBackground } from '../m-btn'
+import Mbtn, { setBackground, palette } from '../m-btn'
 
 const bg = setBackground('grey', 'lighter')
 
@@ -50,7 +49,7 @@ export default class Content extends Component {
       <Wrapper>
         <SmallSection>
           <Mbtn info accent icon textColor='info' textNuance='dark' content='query_builder' />
-          <Mbtn icon color='#4DD0E1' customTextColor='red' content='lock_open' />
+          <Mbtn icon color='#4DD0E1' textColor='PaleVioletRed' content='lock_open' />
           <Mbtn primary light icon textPlatte='success' textNuance='dark' content='check' />
 
           <Mbtn warning icon content='cloud_circle' />

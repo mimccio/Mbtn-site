@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components'
-import { font, fontSize, spacing } from '../m-btn/settings/styleSettings'
+import { font, fontSize, spacing } from '../m-btn'
 
 // eslint-disable-next-line
 injectGlobal`
