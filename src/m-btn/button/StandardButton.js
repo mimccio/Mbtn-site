@@ -12,7 +12,7 @@ const StandardButton = styled(GlobalButton)`
     transform .2s ease;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.1, 1);
   }
 
   &:before {
@@ -30,7 +30,7 @@ const StandardButton = styled(GlobalButton)`
     height: 2.4rem;
 
     &:hover {
-      transform: scale(1);
+      transform: scale(1.1, 1);
     }
 
   }
@@ -42,7 +42,7 @@ const StandardButton = styled(GlobalButton)`
     height: 2.9rem;
 
     &:hover {
-      transform: scale(.9);
+      transform: scale(1.1, 1);
     }
   }
 `

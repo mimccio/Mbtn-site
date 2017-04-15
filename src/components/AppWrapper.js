@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 // global styles
 import '../styles/reset.css'
@@ -10,7 +11,7 @@ import globalStyles from '../styles/globalStyles'
 
 import { palette, setBackground } from '../m-btn'
 
-const bgColor = setBackground('primary', 'light').color
+const bg = setBackground('primary', 'light')
 
 const Wrapper = styled.section`
   text-align: center;
@@ -18,7 +19,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: ${bgColor};
+  background-color: ${bg.color};
   min-height: calc(100vh);
 
   a {
@@ -31,9 +32,22 @@ const Wrapper = styled.section`
   }
 `
 
-export default (props) => (
+export default class AppWrapper extends Component {
+  getChildContext () {
+    return {
+      bg: bg
+    }
+  }
 
-  <Wrapper>
-    {props.children}
-  </Wrapper>
-)
+  render () {
+    return (
+      <Wrapper>
+        {this.props.children}
+      </Wrapper>
+    )
+  }
+}
+
+AppWrapper.childContextTypes = {
+  bg: PropTypes.object
+}

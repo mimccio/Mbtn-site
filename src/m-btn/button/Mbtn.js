@@ -38,14 +38,14 @@ export default class Mbtn extends Component {
       color: ${color};
       text-shadow:
         0 1px 2px ${shadowColorDark},
-        0 2px 5px ${shadowColorLight},
+        0 2px 5px ${shadowColorLight};
 
     }
 
     &:hover:after {
       box-shadow:
-        0 2px 5px ${shadowColorDark},
-        0 4px 20px ${shadowColorLight};
+        0 0 4px ${shadowColorDark},
+        0 4px 10px ${shadowColorLight};
       border-color: ${color};
     }
 

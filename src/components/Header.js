@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { fontSize, palette } from '../m-btn'
+import Mbtn, { fontSize, palette } from '../m-btn'
 
 const Wrapper = styled.section`
     padding: 2rem;
@@ -17,5 +17,8 @@ export default () => (
   <Wrapper>
     <Title>{'<Mbtn />'}</Title>
     <p>One to rule them all</p>
+    <a href='https://github.com/mimccio/Mbtn' target='_blank'>
+      <Mbtn danger light textColor='primary' textNuance='main' bold content='GitHub' />
+    </a>
   </Wrapper>
 )
