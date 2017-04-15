@@ -3,12 +3,7 @@ import styled from 'styled-components'
 import { palette } from '../m-btn'
 
 const Wrapper = styled.section`
-  height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 6rem;
+  margin-top: auto;
 `
 
 const LoveIcon = styled.i`

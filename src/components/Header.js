@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { fontSize, palette } from '../m-btn'
 
 const Wrapper = styled.section`
-    text-align: center;
     padding: 2rem;
 `
 

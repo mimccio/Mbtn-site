@@ -14,11 +14,14 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   padding: 2rem;
-  margin: 2rem 0;
-  display: flex;
+  margin: 0;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px ${palette.primary.main};
+
+  @media (min-width:881px) {
+  margin: 0 4rem;
 `
 
 const Section = styled.section`

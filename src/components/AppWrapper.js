@@ -13,12 +13,13 @@ import { palette, setBackground } from '../m-btn'
 const bgColor = setBackground('primary', 'light').color
 
 const Wrapper = styled.section`
+  text-align: center;
   color: ${palette.primary.dark};
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: ${bgColor};
-  min-height: 100vh;
+  min-height: calc(100vh);
 
   a {
     color: ${palette.primary.main};
