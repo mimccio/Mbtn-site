@@ -8,6 +8,12 @@ const StandardButton = styled(GlobalButton)`
   width: 4.2rem;
   height: 1.6rem;
   border-radius: ${baseRadius};
+  transition:
+    transform .2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   &:before {
     border-radius: ${baseRadius};
@@ -31,6 +37,9 @@ const StandardButton = styled(GlobalButton)`
     width: 9rem;
     height: 3.1rem;
 
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `
 export default StandardButton
