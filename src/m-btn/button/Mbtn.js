@@ -23,9 +23,9 @@ export default class Mbtn extends Component {
     const iconClassName = defineIconClass(this.props)
     const content = defineContent(this.props)
     const fontWeigth = defineFontWeight(this.props)
-    const shadowColorLight = this.context.shadowColorLight
-    const shadowColorDark = this.context.shadowColorDark
-    const textColor = defineTextColor(this.props, this.context.color)
+    const shadowColorLight = this.context.bg.shadow.light
+    const shadowColorDark = this.context.bg.shadow.dark
+    const textColor = defineTextColor(this.props, this.context.bg.color)
 
     const buttonType = this.props.icon ? IconButton : StandardButton
 
@@ -65,7 +65,5 @@ export default class Mbtn extends Component {
 }
 
 Mbtn.contextTypes = {
-  color: PropTypes.string,
-  shadowColorLight: PropTypes.string,
-  shadowColorDark: PropTypes.string
+  bg: PropTypes.object
 }

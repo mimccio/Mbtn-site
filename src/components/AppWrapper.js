@@ -8,9 +8,9 @@ import '../styles/box-sizing.css'
 
 import globalStyles from '../styles/globalStyles'
 
-import { palette, defaultTextColor, bg } from '../m-btn'
+import { palette, defaultTextColor, setBackground } from '../m-btn'
 
-const bgColor = bg('primary', 'lighter').color
+const bgColor = setBackground('primary', 'lighter').color
 
 const Wrapper = styled.section`
   color: ${palette.info.main};

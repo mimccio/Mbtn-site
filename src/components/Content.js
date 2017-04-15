@@ -3,17 +3,14 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import palette from '../m-btn/config/colorPalette'
-import Mbtn, { bg } from '../m-btn'
+import Mbtn, { setBackground } from '../m-btn'
 
-const background = bg('info', 'lighter')
-const backgroundColor = background.color
-const shadowColorLight = background.shadow.light
-const shadowColorDark = background.shadow.dark
+const bg = setBackground('info', 'lighter')
 
 const Wrapper = styled.div`
   height: 400px;
   color: ${palette.primary.main};
-  background-color: ${backgroundColor};
+  background-color: ${bg.color};
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -40,9 +37,7 @@ export default class Content extends Component {
 
   getChildContext () {
     return {
-      color: backgroundColor,
-      shadowColorLight: shadowColorLight,
-      shadowColorDark: shadowColorDark
+      bg: bg
     }
   }
 
@@ -94,7 +89,5 @@ export default class Content extends Component {
 
 }
 Content.childContextTypes = {
-  color: PropTypes.string,
-  shadowColorLight: PropTypes.string,
-  shadowColorDark: PropTypes.string
+  bg: PropTypes.object
 }
