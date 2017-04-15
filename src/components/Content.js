@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import palette from '../m-btn/config/colorPalette'
 import Mbtn, { setBackground } from '../m-btn'
 
-const bg = setBackground('info', 'lighter')
+const bg = setBackground('grey', 'lighter')
 
 const Wrapper = styled.div`
   height: 400px;
@@ -53,8 +53,8 @@ export default class Content extends Component {
 
           <Mbtn primary icon content='directions_bike' />
           <Mbtn danger accent light icon content='local_cafe' bold />
-          <Mbtn info icon textColorPalette='primary' textNuance='lighter' content='query_builder' />
-          <Mbtn info light icon textPalette='primary' textNuance='dark' content='airplanemode_active' />
+          <Mbtn info icon textColor='warning' textNuance='light' content='query_builder' />
+          <Mbtn info light icon textColor='primary' textNuance='dark' content='airplanemode_active' />
 
           <Mbtn success icon content='code' />
           <Mbtn primary dark icon iconClass='fa fa-hand-peace-o' />
@@ -65,22 +65,20 @@ export default class Content extends Component {
         </SmallSection>
 
         <Section>
-          <Mbtn primary content='Primary' />
           <Mbtn primary dark content='Dark' />
           <Mbtn primary accent content='Accent' />
 
           <Mbtn info content='Info' bold />
           <Mbtn info light content='Light' />
-          <Mbtn info dark content='Dark' />
 
           <Mbtn warning textColor='info' textNuance='dark' content='Warning' bold />
           <Mbtn warning light content='Light' />
           <Mbtn warning dark content='Dark' />
 
-          <Mbtn primary lighter textNuance='dark' content='darkText' />
-          <Mbtn success accent customTextColor='red' content='custom' />
-          <Mbtn success dark textPalette='warning' textNuance='light' content=' ☀ Hi ☯ ' />
-          <Mbtn color='#4DD0E1' textPalette='primary' textNuance='dark' content='Bonjour' />
+          <Mbtn primary lighter textColor='danger' textNuance='dark' content='custom' />
+          <Mbtn success accent textColor='MidnightBlue ' content='custom' />
+          <Mbtn success dark content=' ☀ Hi ☯ ' />
+          <Mbtn color='#4DD0E1' content='Bonjour' />
         </Section>
 
       </Wrapper>

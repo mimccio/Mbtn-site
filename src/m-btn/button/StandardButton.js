@@ -26,8 +26,8 @@ const StandardButton = styled(GlobalButton)`
   @media (min-width:641px) {
     font-size: ${fontSize.body};
 
-    width: 7rem;
-    height: 2.5rem;
+    width: 6.8rem;
+    height: 2.4rem;
 
     &:hover {
       transform: scale(1);
@@ -38,8 +38,8 @@ const StandardButton = styled(GlobalButton)`
   @media (min-width:881px) {
     font-size: ${fontSize.bodyBig};
     padding: 2px;
-    width: 9rem;
-    height: 3.1rem;
+    width: 8rem;
+    height: 2.9rem;
 
     &:hover {
       transform: scale(.9);
