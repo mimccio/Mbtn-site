@@ -19,12 +19,11 @@ export default () => (
         </a>
       </p>
       <p>
-        made by
-        <a href='https://twitter.com/mimccio' target='_blank'> @mimccio </a>
-        with <LoveIcon className='fa fa-heart' aria-hidden='true' /> and
-        <a
+        made by <a href='https://twitter.com/mimccio' target='_blank'>
+          @mimccio
+        </a> with <LoveIcon className='fa fa-heart' aria-hidden='true' /> and <a
           href='https://styled-components.com/' target='_blank'
-        > styled-components
+        >styled-components
         </a>
       </p>
 
