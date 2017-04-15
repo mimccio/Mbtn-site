@@ -81,7 +81,7 @@ const palette = {
     accent: {
       main: infoAccent,
       light: infoAccentLight,
-      dark: infoDark
+      dark: infoAccentDark
     }
   },
   warning: {

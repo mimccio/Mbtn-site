@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { fontSize, palette } from '../m-btn'
+import { palette } from '../m-btn'
 
 const Wrapper = styled.section`
   height: 100%;

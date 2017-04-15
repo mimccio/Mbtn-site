@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { fontSize, baseRadius, spacing } from '../settings/styleSettings'
+import { fontSize, baseRadius } from '../settings/styleSettings'
 import GlobalButton from './GlobalButton'
 
 const StandardButton = styled(GlobalButton)`

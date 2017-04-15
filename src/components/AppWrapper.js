@@ -5,10 +5,10 @@ import styled from 'styled-components'
 import '../styles/reset.css'
 import '../styles/normalize.css'
 import '../styles/box-sizing.css'
-
+// eslint-disable-next-line
 import globalStyles from '../styles/globalStyles'
 
-import { palette, defaultTextColor, setBackground } from '../m-btn'
+import { palette, setBackground } from '../m-btn'
 
 const bgColor = setBackground('primary', 'light').color
 

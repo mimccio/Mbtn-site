@@ -4,15 +4,12 @@ import PropTypes from 'prop-types'
 
 import StandardButton from './StandardButton'
 import IconButton from './IconButton'
-import { defaultTextColor } from '../index'
 import {
   defineColor,
   defineTextColor,
   defineIconClass,
   defineContent,
-  defineFontWeight,
-  defineShadowColorLight,
-  defineShadowColorDark
+  defineFontWeight
 } from '../helpers'
 
 export default class Mbtn extends Component {
