@@ -48,8 +48,4 @@ injectGlobal`
     text-decoration: none;
   }
 
-  i {
-    padding: 0;
-  }
-
 `
