@@ -68,13 +68,13 @@ export default class Content extends Component {
         </SmallSection>
 
         <Section>
-          <Mbtn primary content='<Mbtn />' />
+          <Mbtn primary content='<Mbtn/>' />
           <Mbtn primary accent content='Accent' />
 
           <Mbtn info content='Info' bold />
           <Mbtn info light content='Light' />
 
-          <Mbtn warning textColor='info' textNuance='dark' content='Warning' bold />
+          <Mbtn warning textColor='info' textNuance='dark' content='Warning' />
           <Mbtn warning light content='Light' />
           <Mbtn warning dark content='Dark' />
 
