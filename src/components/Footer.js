@@ -4,6 +4,7 @@ import { palette } from '../m-btn'
 
 const Wrapper = styled.section`
   margin-top: auto;
+  padding-top: 3rem;
 `
 
 const LoveIcon = styled.i`
