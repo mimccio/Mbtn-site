@@ -22,6 +22,7 @@ const Wrapper = styled.div`
   @media (min-width:881px) {
   margin: 0 4rem;
   border-radius: 50px;
+}
 `
 
 const Section = styled.section`
@@ -37,7 +38,6 @@ const SmallSection = styled(Section)`
 `
 
 export default class Content extends Component {
-
   getChildContext () {
     return {
       bg: bg
@@ -87,7 +87,6 @@ export default class Content extends Component {
       </Wrapper>
     )
   }
-
 }
 Content.childContextTypes = {
   bg: PropTypes.object
