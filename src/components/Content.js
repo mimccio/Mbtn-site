@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import Mbtn, { setBackground, palette } from '../m-btn'
+import Mbtn, { setBackground, palette } from 'm-btn'
 
 const bg = setBackground('grey', 'lighter')
 

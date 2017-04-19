@@ -9,7 +9,7 @@ import '../styles/box-sizing.css'
 // eslint-disable-next-line
 import globalStyles from '../styles/globalStyles'
 
-import { palette, setBackground } from '../m-btn'
+import { palette, setBackground } from 'm-btn'
 
 const bg = setBackground('primary', 'light')
 

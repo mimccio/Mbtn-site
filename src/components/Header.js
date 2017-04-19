@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Mbtn, { fontSize, palette } from '../m-btn'
+import Mbtn, { fontSize, palette } from 'm-btn'
 
 const Wrapper = styled.section`
     padding: 2rem;
