@@ -1,18 +1,18 @@
 import { injectGlobal } from 'styled-components'
-import { font, fontSize, spacing } from '../m-btn'
+import { fontSize, spacing } from 'm-btn'
 
 // eslint-disable-next-line
 injectGlobal`
 
   {/* Body */}
   p, a, li, button {
-    font-family: ${font.body};
+    font-family: 'Lato', sans-serif;
     font-size: ${fontSize.body};
   }
 
   {/* Headings */}
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${font.heading};
+    font-family: 'Raleway', sans-serif;
   }
 
   h1 {
