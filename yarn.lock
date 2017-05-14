@@ -3517,9 +3517,9 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
 
-m-btn@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/m-btn/-/m-btn-1.0.8.tgz#c22198c47b27b1adea7e5e49123a0326350a6cb1"
+m-btn@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/m-btn/-/m-btn-1.0.13.tgz#f2a8e80afc6714dc87fe24d6cff3d9b901857f37"
   dependencies:
     prop-types "^15.5.8"
     styled-components "^1.4.5"
